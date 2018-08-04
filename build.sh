@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #!/bin/bash
-sudo cp Dockerfile /opt
+sudo cp dockerfile /opt
 sudo cd /opt
 pwd
 sudo docker build -t tomcat /opt
