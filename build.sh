@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo cp WebApp.war /opt
+
 sudo cp dockerfile /opt
 sudo cd /opt
 sudo docker build -t tomcat  dockerfile /opt
