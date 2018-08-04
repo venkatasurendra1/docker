@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#!/bin/bash
+sudo mkdir opt
 sudo cp dockerfile /opt
 sudo cd /opt
 pwd
