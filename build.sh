@@ -1,7 +1,9 @@
 #!/bin/bash
 
-sudo cp dockerfile /opt
+#!/bin/bash
+sudo cp Dockerfile /opt
 sudo cd /opt
-sudo docker build -t tomcat  dockerfile /opt
-sudo docker tag tomcat:latest venkatasurendra1/build:latest
-sudo docker push venkatasurendra1/build:latest
+pwd
+sudo docker build -t tomcat /opt
+sudo docker tag tomcat:latest venkatasurendra1/tome:latest 
+sudo docker push venkatasurendra1/tome:latest
